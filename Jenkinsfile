@@ -8,8 +8,8 @@ pipeline {
             sh './gradlew compileJava'
             
           },
-          "": {
-            sh 'Compiling'
+          "error": {
+            echo 'Compiling'
             
           }
         )
